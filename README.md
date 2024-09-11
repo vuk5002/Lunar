@@ -34,7 +34,9 @@ To run it on real hardware, its a bit harder, I recommend using RUFUS and make a
 Keep in mind your test machine NEEDS to support (U)EFI Boot!
 
 For VBox, VMWare, these do not work (for now).
-     
+
+## Screenshots
+![App Screenshot](lpr12.png)
 
 ![Static Badge](https://img.shields.io/badge/Latest%20Build:-PASS-green)
 
