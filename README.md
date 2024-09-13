@@ -36,7 +36,7 @@ Keep in mind your test machine NEEDS to support (U)EFI Boot!
 For VBox, VMWare, these do not work (for now).
 
 ## Screenshots
-![App Screenshot](Screenshot 2024-09-13 151651.png)
+![App Screenshot]("Screenshot 2024-09-13 151651.png")
 
 ![Static Badge](https://img.shields.io/badge/Latest%20Build:-PASS-green)
 
