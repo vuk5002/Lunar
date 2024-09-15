@@ -5,7 +5,6 @@
 
 
 
-
 ## Contributing
 
 DM me on discord to get the source code\
@@ -32,9 +31,14 @@ To run the OS in a Virtual Machine (QEMU) use these params
 ```
 
 To run it on real hardware, its a bit harder, I recommend using RUFUS and make a bootable USB\
-Keep in mind your test machine NEEDS to support (U)EFI Boot!
+Keep in mind your test machine NEEDS to support (U)EFI Boot! You DONT need TianoCore stuff to boot, you
+can use any other frimware you have, even on real HW.
 
 For VBox, VMWare, these do not work (for now).
+
+## Known Bugs
+- Programs not focused by default
+- DepthRenderer doesnt fallback to VMWareSVGA II or CPU Renderer if Intel HD graphics arent present (leaving the Render button unusable)
 
 ## Screenshots
 ![App Screenshot](pr14.png)
