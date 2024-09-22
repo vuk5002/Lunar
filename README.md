@@ -36,9 +36,19 @@ can use any other frimware you have, even on real HW.
 
 For VBox, VMWare, these do not work (for now).
 
+## System Requirements
+(YOU NEED A COMPATIBLE UEFI SYSTEM, THERE IS NO LEGACY BOOTLOADER)
+- HDD: 3MB
+- CPU: 64 bit compatible CPU
+- GPU: recommended to use one (supported: VMWare SVGA II, Intel HD, AMD (RDNA 3)) (if gpu isnt present, cpu will take over the rendering)
+- RAM: 512MB
+- Network: none or AMD PCnet
+- Display: 1920x1080
+- Audio: none
+
 ## Known Bugs
-- Programs not focused by default
 - DepthRenderer doesnt fallback to VMWareSVGA II or CPU Renderer if Intel HD graphics arent present (leaving the Render button unusable)
+- DepthRenderer doesnt use the new mesh renderer :(
 
 ## Screenshots
 ![App Screenshot](r10p3.png)
