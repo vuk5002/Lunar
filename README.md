@@ -18,7 +18,12 @@ Discord: vuledjk
 
 ## Roadmap
 
-- TODO WHEN RELEASED
+- USB
+- NIC
+- Web browser
+- Ray tracing support in DepthRenderer
+- More GPU's supported
+- Sound Cards
 
 
 
