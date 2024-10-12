@@ -1,14 +1,8 @@
 
 # Lunar 1.0
 ### Release 1.0
-#### Patch 3 // Build 1.0.3
+#### Patch 4 // Build 1.0.4
 
-
-
-## Contributing
-
-DM me on discord to get the source code\
-Discord: vuledjk
 
 
 ## Authors
@@ -46,9 +40,9 @@ For VBox, VMWare, these do not work (for now).
 - HDD: 3MB
 - CPU: 64 bit compatible CPU
 - GPU: recommended to use one (supported: VMWare SVGA II, Intel HD, AMD (RDNA 3)) (if gpu isnt present, cpu will take over the rendering)
-- RAM: 512MB
+- RAM: 256MB
 - Network: none or AMD PCnet
-- Display: 1920x1080
+- Display: 1920x1080 (32bit color depth)
 - Audio: none
 
 ## Known Bugs
